@@ -7,7 +7,8 @@ class Pokemon
         @id = id
     end
 
-    def self.save
+    def self.save(id)
+        @@all << Pokemon.new(id)
     end
 
     def self.find
