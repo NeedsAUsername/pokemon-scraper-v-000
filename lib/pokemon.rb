@@ -1,3 +1,4 @@
+require 'pry'
 class Pokemon
     attr_accessor :name, :type, :db, :id
 
@@ -20,3 +21,5 @@ class Pokemon
     end
 
 end
+
+binding.pry
