@@ -3,7 +3,7 @@ class Pokemon
 
     @@all = []
 
-    initialize(name, type, db)
+    def initialize(name, type, db)
     end
 
     def self.save(name, type, db)
