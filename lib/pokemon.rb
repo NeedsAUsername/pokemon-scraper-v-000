@@ -3,14 +3,10 @@ class Pokemon
 
     @@all = []
 
-    def initialize(id)
-        @name = name
-        @type = type
-        @db = db
+    def initialize
     end
 
-    def self.save(name, type, db)
-        @@all << Pokemon.new(name, type, db)
+    def self.save
     end
 
     def self.find
