@@ -12,7 +12,7 @@ class Pokemon
     end
 
     def self.find(id, db)
-        db.select{|pokemon_id| pokemon_id == id }
+        
     end
 
 end
