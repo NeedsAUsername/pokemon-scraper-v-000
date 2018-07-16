@@ -8,7 +8,8 @@ class Pokemon
     end
 
     def self.save(id)
-        @@all << Pokemon.new(id)
+        new = Pokemon.new(id)
+        @@all = new
     end
 
     def self.find
