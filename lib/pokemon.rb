@@ -21,5 +21,3 @@ class Pokemon
     end
 
 end
-
-binding.pry
